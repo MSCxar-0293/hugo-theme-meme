@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+title ="MSCxar0293's Site. "
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -51,7 +51,6 @@ uglyURLs = false
 
 # 类别
 [taxonomies]
-    category = "categories"
     tag = "tags"
 
 # 修改时间
@@ -92,17 +91,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "MSCxar0293"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "mscxofficialmail@163.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "其实博客作者是个five（"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://mscxar-0293.github.io/"
     # 推特
-    twitter = "reuixiy"
+    twitter = "..."
 
 # 相关文章
 [related]
@@ -221,10 +220,10 @@ uglyURLs = false
     [[menu.main]]
         weight = 7
         identifier = "lang-switcher"
-    # [[menu.main]]
-    #     weight = 8
-    #     identifier = "search"
-    #     post = "search"
+    [[menu.main]]
+        weight = 8
+        identifier = "search"
+        post = "search"
 
 
 
@@ -290,7 +289,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = false
+    activeInSection = true
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -339,11 +338,11 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2021-08-08T16:00:00+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "..."
     # 说明：用于 Twitter Cards
 
 
@@ -364,7 +363,7 @@ uglyURLs = false
     # 的树状分类，故如需保留树状分类，建议适应
     # Hugo 的设计理念——分区。
 
-    categoryBy = "categories"
+    categoryBy = "sections"
     # 注意：如果你设置为 `sections`，请务必将
     #      此配置文件中的类别（taxonomies）中
     #      的 `categories` 删除，不然分类页
@@ -591,7 +590,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -603,12 +602,12 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
-    valinePlaceholder = "Just go go"
-    valinePath = ""
-    valineAvatar = "mm"
+    enableValine = true
+    valineAppId = "xDN3I5HPvhjYUnISXK1qd7Mb-9Nh9j0Va"
+    valineAppKey = "6TsV3k0am0djjTzC7857PvSt"
+    valinePlaceholder = "(*ﾟ∇ﾟ)..."
+    valinePath = "window.location.pathname"
+    valineAvatar = "mp"
     valineMeta = ["nick", "mail", "link"]
     valinePageSize = 10
     valineLang = "zh-cn"
@@ -620,7 +619,7 @@ uglyURLs = false
     valineEmojiCDN = ""
     valineEmojiMaps = {}
     valineEnableQQ = false
-    valineRequiredFields = []
+    valineRequiredFields = ['nick']
     # 说明：https://valine.js.org/
 
     ## Utterances
@@ -1235,7 +1234,7 @@ uglyURLs = false
     displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "喵☆喵☆喵"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
